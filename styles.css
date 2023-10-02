@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Reset margin and padding for the body and all elements */
+body, div, p, h2, audio {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-size: 38px;
+    color: #fff;
+    background: url('images/as.jpg') no-repeat;
+    background-size: cover; /* Cover the entire viewport */
+}
+.nav {
+    background-color: black;
+    width: 450px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.container {
+    border: 4px solid gold;
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Delius Unicase', cursive;
+    height: 900px;
+    background-color: rgba(28, 27, 27, 0.5); /* Semi-transparent background */
+    text-shadow: none;
+}
+.container iframe {
+    width: 100%;
+    height: 600px;
+}
+.topnav {
+    background-color: rgba(216, 120, 226, 0.7);
+    font-size: 30px;
+    margin: 20px 0; 
+    padding: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px; /* Adjust margin */
+}
+.audio1 {
+    position: relative;
+    margin-bottom: 20px;
+}
+/* Style unvisited links */
+a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+a:visited {
+    color: rgb(56, 6, 34);
+}
+a:hover {
+    color: rgb(132, 0, 255);
+}
+/* active links (clicked) */
+a:active {
+    color: rgb(212, 189, 197);
+}
+/* Style focused links */
+a:focus {
+    border: 10px solid rgb(66, 57, 66);
+}
+footer{
+    position: relative;
+    padding-left: 600px;
+    flex-direction: column;
+}
